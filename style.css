@@ -223,20 +223,40 @@ section{
 
 .future-targets{
     margin-top:40px;
-    padding:25px;
-    background:#161b22;
-    border-radius:12px;
-    border-left:4px solid #00c3ff;
+    padding:30px;
+    background:linear-gradient(135deg, #161b22 0%, #1f2937 100%);
+    border-radius:16px;
+    border:1px solid rgba(0, 195, 255, 0.3);
+    box-shadow:0 0 25px rgba(0, 195, 255, 0.15);
+    position:relative;
+    overflow:hidden;
+}
+
+.future-targets::before{
+    content:"";
+    position:absolute;
+    top:-40px;
+    right:-40px;
+    width:140px;
+    height:140px;
+    background:rgba(0, 195, 255, 0.12);
+    border-radius:50%;
 }
 
 .future-targets h2{
     color:#00c3ff;
     margin-bottom:12px;
+    font-size:28px;
 }
 
 .future-targets p{
     color:#d6d6d6;
-    line-height:30px;
+    line-height:32px;
+    font-size:18px;
+}
+
+.hobby-section{
+    margin-top:50px;
 }
 
 .hobby-section{
