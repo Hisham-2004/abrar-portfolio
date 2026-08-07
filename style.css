@@ -221,7 +221,7 @@ section{
     margin-bottom:15px;
 }
 
-.future-targets{
+.future.targets{
     margin-top:40px;
     padding:30px;
     background:linear-gradient(135deg, #161b22 0%, #1f2937 100%);
@@ -232,7 +232,7 @@ section{
     overflow:hidden;
 }
 
-.future-targets::before{
+.future.targets::before{
     content:"";
     position:absolute;
     top:-40px;
@@ -243,13 +243,13 @@ section{
     border-radius:50%;
 }
 
-.future-targets h2{
+.future.targets h2{
     color:#00c3ff;
     margin-bottom:12px;
     font-size:28px;
 }
 
-.future-targets p{
+.future.targets p{
     color:#d6d6d6;
     line-height:32px;
     font-size:18px;
