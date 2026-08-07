@@ -221,6 +221,24 @@ section{
     margin-bottom:15px;
 }
 
+.future-targets{
+    margin-top:40px;
+    padding:25px;
+    background:#161b22;
+    border-radius:12px;
+    border-left:4px solid #00c3ff;
+}
+
+.future-targets h2{
+    color:#00c3ff;
+    margin-bottom:12px;
+}
+
+.future-targets p{
+    color:#d6d6d6;
+    line-height:30px;
+}
+
 .hobby-section{
     margin-top:50px;
 }
