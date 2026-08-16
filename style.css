@@ -149,6 +149,75 @@ section{
     margin-bottom:10px;
 }
 
+.achievements-box{
+    margin-top:30px;
+    padding:30px;
+    background:linear-gradient(135deg, rgba(0,195,255,0.1) 0%, rgba(0,195,255,0.05) 100%);
+    border:2px solid rgba(0,195,255,0.3);
+    border-radius:15px;
+    display:inline-block;
+    text-align:left;
+    max-width:100%;
+}
+
+.achievements-box h3{
+    color:#00c3ff;
+    font-size:24px;
+    margin-bottom:15px;
+    letter-spacing:0.5px;
+}
+
+.achievements-content{
+    display:flex;
+    gap:30px;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.achievements-text{
+    flex:1;
+    min-width:300px;
+}
+
+.achievements-text p{
+    color:#d6d6d6;
+    line-height:28px;
+    font-size:16px;
+}
+
+.achievements-text strong{
+    color:#00c3ff;
+    font-weight:600;
+}
+
+.achievements-image{
+    flex:0 0 280px;
+    position:relative;
+}
+
+.achievements-image img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:12px;
+    border:3px solid #00c3ff;
+    box-shadow:0 8px 32px rgba(0,195,255,0.2);
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+    cursor:pointer;
+}
+
+.achievements-image img:hover{
+    transform:translateY(-5px);
+    box-shadow:0 12px 40px rgba(0,195,255,0.4);
+}
+
+.file-input-hidden{
+    display:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+
 .experience-container{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
@@ -220,6 +289,7 @@ section{
     color:#00c3ff;
     margin-bottom:15px;
 }
+
 
 .current-goals{
     margin-top:40px;
@@ -293,6 +363,7 @@ section{
     background:#0d1117;
     border-radius:14px;
 }
+
 
 .contact{
     display:flex;
