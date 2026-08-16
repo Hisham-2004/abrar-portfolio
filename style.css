@@ -167,6 +167,33 @@ section{
     letter-spacing:0.5px;
 }
 
+.achievements-box h4{
+    color:#00c3ff;
+    font-size:18px;
+    margin-top:20px;
+    margin-bottom:10px;
+    letter-spacing:0.5px;
+}
+
+.achievement-item{
+    margin-top:25px;
+    padding-top:20px;
+    border-top:1px solid rgba(0,195,255,0.2);
+}
+
+.achievement-item h4{
+    color:#00c3ff;
+    font-size:18px;
+    margin-bottom:10px;
+    letter-spacing:0.5px;
+}
+
+.achievement-item p{
+    color:#d6d6d6;
+    line-height:28px;
+    font-size:16px;
+}
+
 .achievements-content{
     display:flex;
     gap:30px;
