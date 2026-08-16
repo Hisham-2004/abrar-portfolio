@@ -93,6 +93,19 @@
             <p><strong>Expected Graduation:</strong> 2028</p>
         </div>
 
+        <div class="achievements-box">
+            <div class="achievements-content">
+                <div class="achievements-text">
+                    <h3>Academic Excellence</h3>
+                    <p>Distinguished recipient of the <strong>Dean's Award for Academic Excellence</strong> — a prestigious honor recognizing exceptional academic performance and contribution to the university community. Awarded consecutively in Fall 2024 and Spring 2025, reflecting consistent excellence and dedication to scholarly pursuits.</p>
+                </div>
+                <div class="achievements-image">
+                    <img id="achievementImage" src="Dean Award.jpeg" alt="Dean's Award for Academic Excellence" onclick="document.querySelector('.file-input-hidden').click()">
+                    <input type="file" accept="image/*" class="file-input-hidden" onchange="previewImage(event,'achievementImage')">
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </section>
@@ -268,6 +281,8 @@
         </div>
     </div>
 
+    
+
 </section>
 
 <section id="contact">
@@ -304,6 +319,19 @@
     <p>© 2026 Abrar Hisham | CSE Student Portfolio</p>
 
 </footer>
+
+<script>
+function previewImage(event, id) {
+    const file = event.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        const img = document.getElementById(id);
+        if (img) img.src = e.target.result;
+    };
+    reader.readAsDataURL(file);
+}
+</script>
 
 </body>
 
